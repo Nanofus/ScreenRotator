@@ -31,13 +31,13 @@ public:
 
 TrayIcon::TrayIcon(QObject* parent) : QObject{parent}, d{new Private}
 {
-  d->tray.setIcon(QIcon::fromTheme("screenrotator"));
+  /*d->tray.setIcon(QIcon::fromTheme("screenrotator"));
   d->menu.reset(new QMenu());
   d->tray.setToolTip(tr("Screen Rotator"));
   
   d->tray.setContextMenu(d->menu.get());
   d->menu->addAction(tr("Quit"), qApp, &QApplication::quit);
-  QTimer::singleShot(100, &d->tray, &QSystemTrayIcon::show);
+  QTimer::singleShot(100, &d->tray, &QSystemTrayIcon::show);*/
 }
 
 TrayIcon::~TrayIcon()
