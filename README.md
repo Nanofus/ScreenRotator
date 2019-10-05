@@ -1,3 +1,5 @@
+Extended version of the regular ScreenRotator to remove the obtrusive tray icon
+
 # Simple Qt screen rotation manager
 
 Reads from accelerometer sensors, and rotate display according to the readings.
